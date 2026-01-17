@@ -1,0 +1,114 @@
+{
+  "__ASENAJSON__": true,
+  "LANGUAGE": "Português (Brasil)",
+  "LANGCODE": "pt-BR",
+  "AUTHOR": "AsenaDev",
+  "STRINGS": {
+    "_asena": {
+      "DESC": "Gerenciar o chatbot.\n.lydia no chat para ativar no grupo inteiro\nResponda ou mencione alguém para ativar apenas essa pessoa.",
+      "L_ACTIVATED": "```Lydia ativada para {}\nPara parar use .lydia stop```",
+      "L_DEACTIVATED": "```Lydia desativada para {}```",
+      "L_NOT_ACTIVATED": "```Lydia não está ativada para {}```"
+    },
+    "_plugin": {
+      "INSTALL_DESC": "Instalar plugins externos.",
+      "NEED_URL": "```Por favor, informe uma URL!\nExemplo: .plugin url```",
+      "INVALID_URL": "```Por favor, informe uma URL válida!```",
+      "INVALID_PLUGIN": "*❌ Seu plugin é inválido!*\n*Erro:*",
+      "INSTALLED": "*✅ Plugin {} instalado com sucesso!*",
+      "PLUGIN_DESC": "Mostra os plugins instalados.",
+      "INSTALLED_FROM_REMOTE": "✅*Plugins instalados externamente:*\n",
+      "NO_PLUGIN": "*Você não instalou nenhum plugin externo!*",
+      "REMOVE_DESC": "Remove um plugin.",
+      "NEED_PLUGIN": "```Informe um plugin! Exemplo: .plugin utl```",
+      "NOT_FOUND_PLUGIN": "```Talvez este plugin não esteja instalado.```",
+      "DELETED": "*✅ Módulo removido com sucesso! Reinicie o bot para aplicar as alterações.*"
+    },
+    "admin": {
+      "BAN_DESC": "Banir alguém do grupo. Responda a uma mensagem ou mencione a pessoa.",
+      "IM_NOT_ADMIN": "*Eu não sou administrador neste grupo!*",
+      "REMOVE_ALL": "```Removendo todos do grupo.```",
+      "IS_ADMIN": "*O usuário informado é administrador*",
+      "BANNED": "```@{} foi removido do grupo!```",
+      "FAILED": "```Falha ao adicionar, convite enviado```!",
+      "GIVE_ME_USER": "*Informe um usuário!*",
+      "ADD_DESC": "Adiciona alguém ao grupo.\n.add 559876543210",
+      "ADDED": "```@{} foi adicionado ao grupo!```",
+      "ALREADY_PROMOTED": "```Este usuário já é administrador.```",
+      "PROMOTED": "```@{} agora é administrador!```",
+      "PROMOTE_DESC": "Promove um usuário a administrador.",
+      "DEMOTE_DESC": "Remove cargo de administrador.",
+      "ALREADY_NOT_ADMIN": "```Este usuário não é administrador.```",
+      "DEMOTED": "```@{} foi rebaixado!```",
+      "MUTE_DESC": "Silenciar o grupo.\n.mute : para sempre\n.mute 10 : por 10 minutos",
+      "MUTED": "```Grupo silenciado!```",
+      "TMUTE": "```Grupo silenciado por ",
+      "UNMUTE_DESC": "Remover silêncio do grupo.",
+      "UNMUTED": "```Grupo liberado!```",
+      "INVITE_DESC": "Mostra o link de convite do grupo.",
+      "INVITE": "https://chat.whatsapp.com/{}",
+      "COMMON_DESC": "Mostra membros em comum entre dois grupos.",
+      "SYNTAX": "*Erro de sintaxe!*",
+      "INVALID_JID": "*Sem permissão para acessar esses grupos!*",
+      "DIFF_DESC": "Mostra membros que não são comuns.",
+      "JOIN_DESC": "Entrar em grupo via link.",
+      "JOIN_ERR": "*Link inválido!*",
+      "JOINED": "```Entrou no grupo```",
+      "REVOKE_DESC": "Redefinir link do grupo.",
+      "REVOKE": "```Link revogado com sucesso```"
+    },
+
+    "afk": {
+      "AFK_DESC": "Define você como AFK (Ausente).",
+      "IM_AFK": "*Agora estou AFK!*",
+      "IM_AFK_NOMD": "Agora estou AFK!",
+      "REASON": "Motivo",
+      "LAST_SEEN": "Visto por último",
+      "IM_NOT_AFK": "```Não estou mais AFK!```",
+      "AFK_TEXT": "```Bip bop! Sou um bot. Meu dono não está disponível no momento.```",
+      "AFK_TEXT_NOMD": "Bip bop! Sou um bot.",
+      "HOUR": "horas",
+      "MINUTE": "minutos",
+      "SECOND": "segundos"
+    },
+
+    "filters": {
+      "FILTER_DESC": "Adiciona filtros automáticos.",
+      "NO_FILTER": "*❌ Não há filtros neste chat!*",
+      "FILTERS": "*🔎 Seus filtros:*",
+      "NEED_REPLY": "*❌ Responda a uma mensagem!*",
+      "FILTERED": "*✅ Filtro configurado:* ```{}```",
+      "STOP_DESC": "Remove um filtro.",
+      "NEED_FILTER": "*❌ Informe um filtro!*",
+      "ALREADY_NO_FILTER": "*❌ Este filtro não existe!*",
+      "DELETED": "*✅ Filtro removido!*"
+    },
+
+    "system_stats": {
+      "ALIVE_DESC": "Verifica se o bot está online.",
+      "SYSD_DESC": "Mostra informações do sistema.",
+      "WARN_DESC": "Advertir um usuário.",
+      "RESET": "```AVISO RESETADO\nUsuário: @{}\nRestante: {}```",
+      "NEED_USER": "*Informe um usuário!*",
+      "IAADMIN": "*Não sou administrador*",
+      "ISADMIN": "*Usuário é administrador*",
+      "WARNING": "```⚠️ AVISO ⚠️\nUsuário: @{}\nMotivo: {}\nRestante: {}```"
+    },
+
+    "tagall": {
+      "TAGALL_DESC": "Marca todos no grupo.",
+      "VOTE_DESC": "Criar enquete no grupo."
+    },
+
+    "update": {
+      "UPDATER_DESC": "Verificar atualizações.",
+      "UPDATE": "*Seu bot está atualizado!*",
+      "NEW_UPDATE": "*Nova atualização disponível!*\n\nMudanças:\n```",
+      "UPDATE_NOW_DESC": "Atualizar o bot.",
+      "UPDATING": "_Atualizando..._",
+      "INVALID_HEROKU": "*❌ Dados do Heroku inválidos!*",
+      "UPDATED": "*✅ Atualizado com sucesso!*",
+      "UPDATED_LOCAL": "*✅ Atualizado! Reinicie o bot.*"
+    }
+  }
+}
