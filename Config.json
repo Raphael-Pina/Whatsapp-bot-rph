@@ -1,0 +1,17 @@
+{
+  "ownerNumber": "5562998828633@s.whatsapp.net",
+  "botName": "Whatsapp-bot-rph",
+  "ownerName": "Seu Nome",
+  "prefix": "!",
+  "openaiKey": "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",
+  "groupLimits": {
+    "antifake": true,
+    "antipalavrao": true,
+    "antidelete": true
+  },
+  "autoStatus": true,
+  "musicConfig": {
+    "downloadLimit": 20,
+    "ytQuality": "128kbps"
+  }
+}
